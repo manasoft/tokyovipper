@@ -17,4 +17,17 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <!-- Application theme. -->
+  	<style name="Alpha.Effect"
+  	    parent="android:Animation.Activity">
+	    <item name="android:activityOpenEnterAnimation">
+	      @anim/alpha_open_enter</item>
+	    <item name="android:activityOpenExitAnimation">
+	      @anim/alpha_open_exit</item>
+	    <item name="android:activityCloseEnterAnimation">
+	      @anim/alpha_close_enter</item>
+	    <item name="android:activityCloseExitAnimation">
+	      @anim/alpha_close_exit</item>
+  	</style>
+
 </resources>
