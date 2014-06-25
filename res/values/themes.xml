@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <style name="AlphaEffect"
-      parent="android:Theme">
-    <item name="android:windowAnimationStyle">
-      @style/Alpha.Effect</item>
-  </style>
-</resources>

@@ -26,4 +26,10 @@
         android:paddingTop="200dp"
         android:src="@drawable/logomoji" />
 
+    <Button
+        android:id="@+id/logobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
 </FrameLayout>
